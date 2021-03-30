@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import Name from './components/Name';
+import { Content } from './components/Content.js';
+import Header from './components/Header.js'
 
 const App = function() {
-  let age = 20;
-  return(<div style={{ display: 'flex'}}>
-        <Name name="Maninder" age={age} />
-        <Name name="Shraddha"  />
-        <Name name="Nandkishor" />
-        <Name name="Srikanth"/>
-        <Name name="Supriya" />
+
+  return(<div>
+          <Header />
+          <Content />
        </div>)
 }
+
+//what is a component -> its a function renders a html/jsx/ some conetnt
 
 ReactDOM.render(<App />, document.getElementById('app'));
 
