@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { Content } from './components/Content.js';
 import Header from './components/Header.js'
+import './index.css'
 
 const App = function() {
 
