@@ -8,6 +8,7 @@ export const Content = () => {
     const DEFAULT_STATE = [null,null,null,null,null,null,null,null,null]
 
     const [values, changeValues] = useState(DEFAULT_STATE)
+
     const [whoIsNext, changeNext] = useState('X')
     const [winner, setWinner] = useState(null)
 
